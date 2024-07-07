@@ -1,0 +1,7 @@
+{
+  "server": "Batman\\SQLEXPRESS01",
+  "database": "Testing",
+  "username": "Iheb",
+  "password": "7422",
+  "driver": "ODBC Driver 17 for SQL Server"
+}
