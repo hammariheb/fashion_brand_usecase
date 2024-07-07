@@ -5,7 +5,7 @@ J'ai également envisagé de développer un tableau de bord après avoir termin�
 
 J'ai utilisé Python(Jupyter notebook) pour interroger la base de données que j'ai créée dans SQL Server (en utilisant un fichier json 'conf.json') où j'ai exécuté mes requêtes.
 
-## énoncé du test
+# énoncé du test
 
 BI Engineering Test
 
