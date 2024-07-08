@@ -5,7 +5,7 @@ J'ai également envisagé de développer un tableau de bord après avoir termin�
 
 J'ai utilisé Python(Jupyter notebook) pour interroger la base de données que j'ai créée dans SQL Server là où j'ai pu importer les deux fichiers sales.csv et country.csv (en utilisant un fichier de configuration json 'conf.json')
 
-Et dans la dernière section, #### Data visualisation, j'ai créé un tableau de bord intuitif et dynamique pour mieux comprendre les données. 
+Et dans la dernière section, #### Data visualisation , j'ai créé un tableau de bord intuitif et dynamique pour mieux comprendre les données. 
 J'ai représenté le jeu de données en utilisant le schéma relationnel correspondant.
 
 # énoncé du test
