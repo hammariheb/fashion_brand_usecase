@@ -98,34 +98,34 @@ Note: There is a lot to be improved here, be very critical.
 
 ![exemple](lines_of_code.png)
 
-Formatting and Clarity:
+#### Formatting and Clarity:
 Properly formating the SQL query with indentation and line breaks for better readability.
 Ensuring keywords (SELECT, FROM, LEFT JOIN, WHERE, GROUP BY) are capitalized consistently.
 Removing unnecessary characters like asterisks (*) that might be typos.
 
-Table and Column Aliases:
+#### Table and Column Aliases:
 Using meaningful aliases (c, o, p, etc.) consistently throughout the query to improve readability and reduce redundancy.
 
-Comments:
+#### Comments:
 Removing unnecessary comments that are not adding any useful information or correct the ones that are incorrect or confusing.
 
-Joins and Conditions:
+#### Joins and Conditions:
 Checking for correctness in join conditions (c.ID_CUSTOMER = us.ID_BUYER, O.ID_BUYER = c.ID_CUSTOMER).
 Correcting the LEFT JOIN condition (LEFT JOIN us_sellers us ON c.ID_CUSTOMER = us.ID_BUYER).
 
-Subquery:
+#### Subquery:
 Ensuring that the subquery for DWH_PRD.DIM_VC_PRD_PRODUCT is correctly formatted and provides the necessary fields (ID_PRODUCT, CATEGORY, SUBCATEGORY, MODEL, BRAND).
 
-Aggregations and Grouping:
+#### Aggregations and Grouping:
 Verifying that aggregations (SUM(), COUNT()) and grouping (GROUP BY) are used correctly with appropriate columns.
 
-Filter Conditions:
+#### Filter Conditions:
 Verifying that filter conditions (ID_SELLER_COUNTRY = 223, DATE_PAYMENT >= '2021-01-01', etc.) are correctly applied and meaningful.
 
-Column Aliasing:
+#### Column Aliasing:
 Ensuring that all columns selected have aliases assigned (SUM(PRICE_SOLD) AS SLS, SUM(O.GHV) AS rune, COUNT(DISTINCT o.ID_PRODUCT) AS products).
 
-### data visualisation
+# data visualisation
 
 ![shémas relationnel](data_viz/shémas.png)
 
