@@ -3,7 +3,7 @@
 Ce test technique m'a été attribué par une grande entreprise spécialisée dans la vente de vêtements de luxe, dans le cadre de ma candidature à un stage. Les requêtes SQL demandées constituaient une excellente opportunité de réviser mes compétences en SQL. 
 J'ai également envisagé de développer un tableau de bord après avoir terminé les requêtes.
 
-J'ai utilisé Python(Jupyter notebook) pour interroger la base de données que j'ai créée dans SQL Server (en utilisant un fichier json 'conf.json') où j'ai exécuté mes requêtes.
+J'ai utilisé Python(Jupyter notebook) pour interroger la base de données que j'ai créée dans SQL Server là où j'ai pu importer les deux fichiers sales.csv et country.csv (en utilisant un fichier de configuration json 'conf.json')
 
 # énoncé du test
 
