@@ -124,3 +124,13 @@ Verifying that filter conditions (ID_SELLER_COUNTRY = 223, DATE_PAYMENT >= '2021
 
 Column Aliasing:
 Ensuring that all columns selected have aliases assigned (SUM(PRICE_SOLD) AS SLS, SUM(O.GHV) AS rune, COUNT(DISTINCT o.ID_PRODUCT) AS products).
+
+### data visualisation
+
+![shémas relationnel](data_viz/shémas.png)
+
+Ceci est le shémas relationnel que j'ai fait, j'ai choisi de dupliquer la table country afin de pouvoir faire la double jointure avec la table sales_vestiare avec la colonne ID_country
+
+Ceci est un dashboard que j'ai créé qui permet juste de voir les données de plus prés, je l'ai donc réparti en "vue générale" et "quelques KPI et des viduels plus détaillés"
+
+[Dhashboard ](data_viz/Dashboard_vestiaire_24-06.pdf)
