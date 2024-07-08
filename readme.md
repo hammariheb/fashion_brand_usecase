@@ -131,8 +131,16 @@ Ceci est le shémas relationnel que j'ai fait, j'ai choisi de dupliquer la table
 
 ![shémas relationnel](data_viz/shémas.png)
 
+
+
+
 Et finalement le dashboard que j'ai créé qui permet juste de voir les données de plus prés, je l'ai donc réparti en "vue générale" et "quelques KPI et des visuels plus détaillés"
 
-[Dhashboard ](data_viz/Dashboard_vestiaire_24-06.pdf)
+[DASHBOARD](data_viz/Dashboard_vestiaire_24-06.pdf)
+
+
+
+
+
 
 ## Merci de votre attention 
