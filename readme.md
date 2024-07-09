@@ -5,6 +5,9 @@ J'ai également envisagé de développer un tableau de bord après avoir termin�
 
 J'ai utilisé Python(Jupyter notebook) pour interroger la base de données que j'ai créée dans SQL Server là où j'ai pu importer les deux fichiers sales.csv et country.csv (en utilisant un fichier de configuration json 'conf.json')
 
+Et dans la dernière section "Data visualisation" j'ai créé un tableau de bord intuitif et dynamique pour mieux comprendre les données. 
+J'ai représenté le jeu de données en utilisant le schéma relationnel correspondant.
+
 # énoncé du test
 
 BI Engineering Test
@@ -98,39 +101,49 @@ Note: There is a lot to be improved here, be very critical.
 
 ![exemple](lines_of_code.png)
 
-Formatting and Clarity:
+#### Formatting and Clarity:
 Properly formating the SQL query with indentation and line breaks for better readability.
 Ensuring keywords (SELECT, FROM, LEFT JOIN, WHERE, GROUP BY) are capitalized consistently.
 Removing unnecessary characters like asterisks (*) that might be typos.
 
-Table and Column Aliases:
+#### Table and Column Aliases:
 Using meaningful aliases (c, o, p, etc.) consistently throughout the query to improve readability and reduce redundancy.
 
-Comments:
+#### Comments:
 Removing unnecessary comments that are not adding any useful information or correct the ones that are incorrect or confusing.
 
-Joins and Conditions:
+#### Joins and Conditions:
 Checking for correctness in join conditions (c.ID_CUSTOMER = us.ID_BUYER, O.ID_BUYER = c.ID_CUSTOMER).
 Correcting the LEFT JOIN condition (LEFT JOIN us_sellers us ON c.ID_CUSTOMER = us.ID_BUYER).
 
-Subquery:
+#### Subquery:
 Ensuring that the subquery for DWH_PRD.DIM_VC_PRD_PRODUCT is correctly formatted and provides the necessary fields (ID_PRODUCT, CATEGORY, SUBCATEGORY, MODEL, BRAND).
 
-Aggregations and Grouping:
+#### Aggregations and Grouping:
 Verifying that aggregations (SUM(), COUNT()) and grouping (GROUP BY) are used correctly with appropriate columns.
 
-Filter Conditions:
+#### Filter Conditions:
 Verifying that filter conditions (ID_SELLER_COUNTRY = 223, DATE_PAYMENT >= '2021-01-01', etc.) are correctly applied and meaningful.
 
-Column Aliasing:
+#### Column Aliasing:
 Ensuring that all columns selected have aliases assigned (SUM(PRICE_SOLD) AS SLS, SUM(O.GHV) AS rune, COUNT(DISTINCT o.ID_PRODUCT) AS products).
 
-### data visualisation
-
-![shémas relationnel](data_viz/shémas.png)
+# Data visualisation
 
 Ceci est le shémas relationnel que j'ai fait, j'ai choisi de dupliquer la table country afin de pouvoir faire la double jointure avec la table sales_vestiare avec la colonne ID_country
 
-Ceci est un dashboard que j'ai créé qui permet juste de voir les données de plus prés, je l'ai donc réparti en "vue générale" et "quelques KPI et des viduels plus détaillés"
+![shémas relationnel](data_viz/shémas.png)
 
-[Dhashboard ](data_viz/Dashboard_vestiaire_24-06.pdf)
+
+
+
+Et finalement le dashboard que j'ai créé qui permet juste de voir les données de plus prés, je l'ai donc réparti en "vue générale" et "quelques KPI et des visuels plus détaillés"
+
+[DASHBOARD](data_viz/Dashboard_vestiaire_24-06.pdf)
+
+
+
+
+
+
+## Merci de votre attention 
