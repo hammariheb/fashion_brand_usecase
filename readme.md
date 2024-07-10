@@ -28,24 +28,24 @@ When writing queries, keep the following in mind -> Write simple not complex. Re
 
 
 ### 1.	What are the top 10 brands by revenue in the sales.csv table?
-(Regardez la requête dans Main.py)
+(Regardez la requête Q1 dans queries et le résultat dans Main.py)
 
 ### 2.	Write a query to calculate the contribution (in percentage) of each country to the total by both sales and nb of items sold. I.e. If France sold 10/100 items, then you should have 10% as the contribution for France of items sold.
-(Regardez la requête dans Main.py)
+(Regardez la requête Q2 dans queries et le résultat dans Main.py)
 
 ### 3.	Which two countries had the best relationship in terms of revenue? Include the revenue in both directions, e.g. If France sells to Germany and Germany sells to France, then you must aggregate both into a single row in your table.
-(Regardez la requête dans Main.py)
+(Regardez la requête Q3 dans queries et le résultat dans Main.py)
 
 
 ### 4.	When and why should you create a table or a view?
 Tables should be created when there is a need to store structured data persistently. They define the schema, including columns, data types, and relationships, ensuring data integrity and supporting efficient querying through normalization. Views, on the other hand, are virtual tables that simplify complex queries, encapsulate logic, and present a subset or transformed view of data without physical storage. They enhance security by restricting data access and improve performance by pre-computing results. The choice between tables and views hinges on data storage requirements, query complexity, performance, and security considerations.
 
 ### 5.	What is the percentage of buyers who bought in week 2 that also purchased at least 1 item in week 1? (you may assume week 1 as the 1/1/2021 to 7/1/2021 and the second week as 8/1/2021 to 15/1/2021)
-(Regardez la requête dans Main.py)
+(Regardez la requête Q5 dans queries et le résultat dans Main.py)
 
 
 ### 6.	What was the total revenue of repeat buyers in the first week compared to the second week? (answer in % increase or decrease). Note that you must first find the buyers who bought in both week 1 and week 2, and then use this list to calculate the sales in both weeks.
-(Regardez la requête dans Main.py)
+(Regardez la requête Q6 dans queries et le résultat dans Main.py)
 
 ### 7.	The business has approached you wanting to implement a new tool that is able to combine data from several sources easily and provide basic visualisation capabilities. What would you consider in your decision making process and why?
 
