@@ -101,7 +101,7 @@ https://docs.snowflake.com/en/sql-reference/functions/object_construct.html
 ### 10.	Make a list of everything you think can be improved in the following query. 
 Note: There is a lot to be improved here, be very critical.
 
-[Screenshot of code](lines_of_code.png)
+![Screenshot of code](lines_of_code.png)
 
 #### Formatting and Clarity:
 Properly formating the SQL query with indentation and line breaks for better readability.
