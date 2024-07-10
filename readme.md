@@ -1,12 +1,14 @@
 # Description du projet
 
-Ce test technique m'a été attribué par une grande entreprise spécialisée dans la vente de vêtements de luxe, dans le cadre de ma candidature à un stage. Les requêtes SQL demandées constituaient une excellente opportunité de réviser mes compétences en SQL. 
-J'ai également envisagé de développer un tableau de bord après avoir terminé les requêtes.
+Ce test technique m'a été attribué par une grande entreprise spécialisée dans la vente de vêtements de luxe, dans le cadre de ma candidature à un stage. Les requêtes SQL demandées constituaient une excellente opportunité de réviser mes compétences en SQL. J'ai également envisagé de développer un tableau de bord après avoir terminé les requêtes.
 
-J'ai utilisé Python(Jupyter notebook) pour interroger la base de données que j'ai créée dans SQL Server là où j'ai pu importer les deux fichiers sales.csv et country.csv (en utilisant un fichier de configuration json 'conf.json')
+J'ai importé les deux fichiers dans SQL Server afin de pouvoir exécuter les requêtes demandées. J'ai utilisé Python (Jupyter Notebook) pour mener à bien ce projet. Pour ce faire, j'ai créé un fichier JSON (conf.json) contenant les différentes informations d'identification nécessaires pour établir la connexion avec ma base de données dans SQL server.
+Vous trouverez donc les différentes requêtes SQL dans le dossier 'queries' et leurs résultats respectifs dans le fichier Main.py.ipynb.
 
-Et dans la dernière section "Data visualisation" j'ai créé un tableau de bord intuitif et dynamique pour mieux comprendre les données. 
-J'ai représenté le jeu de données en utilisant le schéma relationnel correspondant.
+NB : Pour les questions nécessitant une rédaction, j'ai répondu directement dans ce document, ainsi que pour les dernières questions demandant le code correspondant de Snowflake.
+
+Dans la dernière section, j'ai choisi de faire une "Data Visualisation", j'ai créé un tableau de bord intuitif et dynamique pour mieux comprendre les données (ci-dessous le dashboard associé)
+J'ai représenté le jeu de données en utilisant le schéma relationnel approprié (ci-dessous la capture d'écran) 
 
 # énoncé du test
 
@@ -99,7 +101,7 @@ https://docs.snowflake.com/en/sql-reference/functions/object_construct.html
 ### 10.	Make a list of everything you think can be improved in the following query. 
 Note: There is a lot to be improved here, be very critical.
 
-![exemple](lines_of_code.png)
+[Screenshot of code](lines_of_code.png)
 
 #### Formatting and Clarity:
 Properly formating the SQL query with indentation and line breaks for better readability.
@@ -140,10 +142,3 @@ Ceci est le shémas relationnel que j'ai fait, j'ai choisi de dupliquer la table
 Et finalement le dashboard que j'ai créé qui permet juste de voir les données de plus prés, je l'ai donc réparti en "vue générale" et "quelques KPI et des visuels plus détaillés"
 
 [DASHBOARD](data_viz/Dashboard_vestiaire_24-06.pdf)
-
-
-
-
-
-
-## Merci de votre attention 
